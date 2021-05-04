@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M PREM</title>
+     <!-- add icon link -->
+     <link rel = "icon" href = 
+     "https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" 
+             type = "image/x-icon"> 
+    <!--bootstrp css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <!--external bootstrap and javascript-->
+    <!-- <link rel="stylesheet" href="C:\js files\style1.css"> -->
+    <script src="portfolio.js"></script>
+   <!-- w3school -->
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <!-- bootstrap.js -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <!-- googlefont-->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet"> 
+         
+  <!--end link-->
+  <!--scrpit-->
+ 
+</head>
+  <body data-spy="scroll" data-target="#myscroll" data-offset="0"  tabindex="0" >
+      <style>
+          .w-5{
+    width: 90%;
+}
+.display-4{
+    color: aliceblue;
+    font-size: 20px;
+}
+.skill{
+    font-size: 30px;
+      color: white;
+      font-weight: bold;
+}
+.bg{
+    background-color:whitesmoke;
+}
+                
+                .progress{
+                    height: 25px;
+                }
+                #logo{
+                    font-size: 32px;
+                    color: red;
+                
+                }
+                .link{
+                    text-decoration: none;
+                }
+                .id{
+                    font-size: 15px;
+                    color:white;  
+                    font-family:Arial, Helvetica, sans-serif; 
+                }
+            .nav-link{
+                float:right;
+                padding: 10px;
+                transform: translateX(-250px);
+                color: white;
+            }
+            .nav-link:hover{
+                color: rgb(252, 250, 248);
+                border-bottom: 1px solid white;
+            }
+            html{
+                scroll-behavior: smooth;
+            }
+            .btn-bg{
+                background-color: rgb(230, 54, 54);
+            }
+            .btn-bg:hover{
+                background-color:yellow;
+            }
+
+            #box {
+            left: 1;
+            font-family: 'Bangers', cursive;
+            font-size: 30px;
+                       }                    
+          .bg-primary1{
+                    background-color: rgb(7, 0, 0);
+                }
+                .progress-bar{
+                    animation-name:move;
+                        animation-fill-mode: backwards;
+                        animation-iteration-count: 1;
+                        animation-duration: 0.5s;
+                        animation-timing-function: linear;
+                       
+                    }
+                    
+                    @keyframes move{
+                        from { transform:translatex(0px) }
+                        to { transform:translatex(-100px) }
+                    }
+             #menu{
+                        animation-name:move;
+                            animation-fill-mode: forwards;
+                            animation-iteration-count: 1;
+                            animation-duration: 0.3s;
+                            animation-timing-function: linear;
+                        }
+                        
+                        @keyframes move{
+                            from { transform:translatex(0) }
+                            to { transform:translatex(250px) }
+                        }
+          #banner{
+               background-image: url("../../banner.jpg");
+               background-size: auto;
+               background-repeat: no-repeat;
+              background-position-x: right;
+              height: 500px;
+           }
+           #myscroll ::-webkit-scrollbar{
+               background-color: black;
+           }     
+
+           #para1{
+            
+            color: cornsilk;
+            font-weight: bold;
+        }
+        #para2{
+         
+          color: cornsilk;
+          font-weight: bold;
+      }
+      #para3{
+          font-size: 30px;
+          color: cornsilk;
+          font-weight: bold;
+      }
+      .heading{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(19, 15, 1);
+      }
+      #skilhead{
+        font-size: 30px;
+      color: white;
+      font-weight: bold;
+    }
+    .text{
+        color: rgba(5, 3, 0, 0.849);
+        font-size: 15px;
+        font-weight: bold;  
+    }
+      .bg-secondary1{
+          background-color: rgb(56, 55, 55);
+      }
+      .card1{
+          width: 390px;
+          height: 620px;
+      }
+      .foot{
+          color: black;
+          font-size: 15px;
+      }
+      .banner2{
+        background-image: url("https://wallpapercave.com/wp/9iQJyW7.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+       background-position-x:bottom;
+       height: 500px; 
+
+      }
+      .gmap_canvas {overflow:hidden;background:none!important;height:200px;width:300px;}
+      .banner3{
+        background-image: url("https://wallpapercave.com/wp/9iQJyW7.jpg");
+        background-size:cover;
+        background-repeat: no-repeat;
+       background-position-x:bottom; 
+      }
+      .bt{
+          border: 1px solid black;
+      }
+     #span1{
+         font-size: 30px;
+     }
+
+            @media only screen and (max-width: 800px) {
+                .nav-item{
+                    margin-right: 200px;
+                }
+                .banner2{
+                    background-image: url("https://wallpapercave.com/wp/9iQJyW7.jpg");
+                    background-size:cover;
+                    background-repeat: no-repeat;
+                   background-position-x:bottom;
+                   height: 900px; 
+            
+                  }
+                
+                #box {
+   
+                    margin-left:1px;
+                    font-family: 'Bangers', cursive;
+                    font-size: 30px;
+                    margin-right: 10px !important;
+            }
+            /* .card1{
+                width: 290px;
+                height: 520px;
+            } */
+            /* .gmap_canvas {overflow:hidden;background:none!important;height:200px;width:230px;}
+           .c-1{
+               height:250px !important;
+           } */
+           .margin{
+            margin-top: 250px;
+          }
+          .bb{
+              width: 100px;
+             
+          }
+          #para1{
+              font-size: 20px;
+              color: cornsilk;
+              font-weight: bold;
+          }
+          #para2{
+            font-size: 30px;
+            color: cornsilk;
+            font-weight: bold;
+        }
+        #para3{
+            font-size: 40px;
+            color: cornsilk;
+            font-weight: bold;
+        }
+        .heading{
+            font-size: 20px;
+          color: rgb(19, 15, 1);
+          font-weight: bold;
+        }
+        #banner{
+           
+            background-repeat: no-repeat;
+           background-position:bottom;
+          
+        }
+        .banner2{
+            margin-top: 10px;
+            background-image: url("../../banner.jpg");
+            background-size: auto;
+            background-repeat: no-repeat;
+           background-position-x:bottom;
+           height: 1000px; 
+           
+          }
+    }
+
+      </style>
+      
+  <!--navbar start--> 
+    <header class="fixed-top" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary1" id="myscroll" data-scroll="scroll" >
+            <div class="container">
+                  <a href="/" class="navbar-brand w3-animate-right" id="box" >
+                    Prem<span id="logo">
+                    M</span>
+                  </a> 
+            
+                    <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#mynav" style="background-color: black;">
+                         <span class="navbar-toggler-icon" ></span>
+                    </button>
+
+               <div class="collapse navbar-collapse " id="mynav">
+                    <ul class="navbar-nav ml-auto w3-animate-left " id="menu">
+                        <li class="nav-item nav-item-action" >
+                           <a href="#home" class="nav-link text ml-4">Home   </a>
+                        </li>
+                       <li class="nav-item">
+                           <a href="#About" class="nav-link text  ml-4">About  </a>
+                        </li>                        
+            
+                        <li class="nav-item">
+                           <a href="#skills" class="nav-link text  ml-4"> Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link text  ml-4"> Services</a>
+                         </li>
+            
+                        <li class="nav-item">
+                           <a href="#contact" class="nav-link text ml-4">Contact</a>
+                        </li>
+            
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+  <!--navbar end-->
+
+                                          <!--main start-->
+<!--home start--> 
+<main>                
+   <div class="container-fluid mt-5" id="banner">                     
+            <div class="row p-5" id="home" style="height: 400px;">
+                    <div class="col-md-6">
+                            <div class="mt-5"></div>
+                                    <h5  class="display-5 " id="para1">Hello!</h5>
+                                    <h3  class="display-3 " id="para2">I Am Prem</h3>
+                                    <p  class="display-3 " id="para3">Frond End Developer</p>
+                                    <a href="#contact" class="btn btn-outline-primary">Hire Me</a>
+                            </div>                               
+                    </div>                        
+            </div>
+    </div>
+</main>    
+ <!--home end-->
+
+<!--about start-->     
+                <div class="container mt-5" id="About" >    
+                    <p class="text-center display-4 mt-5 heading ">ABOUT</p>    
+                    <div class="row">
+                                    <div class="col-md-4">
+                                            <img src="../profile-2.jpeg" alt="image"  load="lazy" class=" card-img-top" style="border-right: 1px solid rgba(128, 128, 128, 0.486)">
+                                    </div>
+
+                                    <div class="col-md-8">
+                                                <p class="card-title mt-5"  style="padding: 0 0 10px 10px;"><span id="span1">H</span>ello!...<br></p>
+                                                <p class="card-text" style="padding: 10px;">
+                                                I Am Prem From Madurai. I Was Completed My UG Degree B.Sc Computer Science in 2021.<br>
+                                                I Want to Become Software Engineer. I Am a Fresher. I did Not Have Any Experience.
+                                                This is My First Website. In My College Final Year .I Bulid a Bank Management Project Using VB.NET 
+                                                </p>
+                                            </div>            
+                                </div>
+                         
+                </div>
+              <div class="mt-5"></div>                          
+<!--about end-->
+
+<!--skills start-->
+            <div class="container-fluid p-5 banner2 mt-5" id="skills">
+                    <div class="container">
+                    <p class="text-center p-2 skill display-4 mt-5" id="skilhead" >Skills</p> 
+                    <br>
+                        <div class="row ">
+                           
+                            <div class="col-md-6">
+                                <div class="progress ">
+                                    <div class="progress-bar bg-danger text-center w3-animation-right text" role="progressbar" style="width: 90%;background-color:lightskyblue;">HTML & CSS</div>
+                                </div>
+                            
+                            
+                                    <div class="progress mt-5">
+                                        <div class="progress-bar text-center text w3-animation-right text" role="progressbar" style="width: 85%; background-color: red;">JAVASCRIPT</div>
+                                    </div>
+                                    <div class="progress mt-5">
+                                        <div class="progress-bar  text-center text w3-animation-right text" role="progressbar" style="width: 80%; background-color:yellow;">BOOTSTRAP</div>
+                                    </div>
+                                    <div class="progress mt-5">
+                                        <div class="progress-bar  text-center text w3-animation-right text" role="progressbar" style="width: 80%; background-color:rgb(71, 71, 35);">JQUERY</div>
+                                    </div>
+                                    <div class="mt-5"></div>
+                                </div>
+                                <div class="col-md-6">
+                                   <div class="progress">
+                                    <div class="progress-bar  text-center w3-animation-right text" role="progressbar" style="width: 70%;background-color:lime;">REACT JS</div>
+                                   </div>
+                            
+                                    <div class="progress mt-5">
+                                        <div class="progress-bar  text-center w3-animation-right text" role="progressbar" style="width:75%;background-color:burlywood;">PHP</div>
+                                    </div>
+                                    <div class="progress mt-5">
+                                        <div class="progress-bar  text-center w3-animation-right text" role="progressbar" style="width:80%;background-color:rgb(140, 166, 236);">MYSQL</div>
+                                    </div>
+                                    <div class="progress mt-5">
+                                        <div class="progress-bar  text-center w3-animation-right text" role="progressbar" style="width: 76%;background-color:rgba(230, 67, 67, 0.808);">Adobe XD</div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>  
+<!--skills end-->
+
+<!--services start-->
+<div class="container-fluid jumbotron" id="services">
+        <p class="container-fluid text-center  p-2 skill display-4 heading mt-5">Services</p> 
+        <div class="container mt-5">
+            <div class="card-deck">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    
+                    <div class="card mb-4 ">
+                        <object class="p-3 card-img-top" data="C:\Users\ELCOT\Downloads\undraw_develop_app_re_bi4i.svg" type="" width="280" height="250"></object>
+                        <div class="card-body" >
+                        <span class="badge badge-primary mb-2">web Design</span>
+                        <p class="card-text text-center text">Web Design
+                        </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-sm-12 col-md-4 ">
+                    <div class="card mb-4">
+                        <object class="p-3 card-img-top" data="C:\Users\ELCOT\Downloads\undraw_web_devices_ad58 (1).svg" type="" width="280" height="250"></object>
+                
+                        <div class="card-body" >
+                            <span class=" badge badge-primary mb-2">Web Development </span>
+                            <p class="card-text text-center text">Web Development 
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-4 ">
+                    <div class="card mb-4">
+                        <object class="p-3 card-img-top" data="C:\Users\ELCOT\Downloads\undraw_programming_2svr (1).svg" type="" width="280" height="250"></object> 
+                        <div class="card-body" >
+                            <span class="badge badge-primary mb-2">Backend Development</span>
+                            <p class="card-text text-center text">Backend Development
+                            </p>
+                        </div>
+                    </div> 
+                </div>
+            
+            </div>
+          </div>
+        </div>
+    </div>
+<!--services end-->
+
+<!--contact start-->
+<div class="my-5 text-dark mt-5 banner3 mb-0" id="contact">
+            <p class="text-center p-5 skill mt-5 display-4">Contact Me</p> 
+            <div class="container">
+                <div class="row p-3">
+                    <div class="col-sm-12 col-md-6 col-lg-6 ">
+                    <div class="card mt-4 card1">
+                        <div class="card-header bg-dark text-white text-center heading">
+                            Location
+                        </div>
+                        <div class="card-body">
+                                <p class="card-title text-center card-text" style="font-weight: bold;">Address</p>
+                                    <Address class="card-text ml-4" style="font-weight: bold;">
+                                        50,Mullai 4th Street,<br>
+                                        Vasan Avenue,<br>
+                                        Sikkanadar Chavadi,<br>
+                                        Podumbu,<br>
+                                        Madurai - 625018;<br>
+                                        Tamilnadu.<br>
+                                    </Address>
+                                    <p class="card-title  card-text" style="font-weight: bold;">Phone :  </p>
+                                    <span class="card-text ml-4" style="font-weight: bold;">8667726969</span>
+                                    <span class="card-text ml-4" style="font-weight: bold;">7810039215</P>
+                                    <br>
+                                    <div class="mapouter ml-md-4"><div class="gmap_canvas"><iframe width="300" height="320" id="gmap_canvas" src="https://maps.google.com/maps?q=SIKKANDAR%20CHAVADI,PODUMBU,MADURAI,TANILNADU-625018.&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://soap2day-to.com"></a><br><style>.mapouter{position:relative;text-align:right;height:341px;width:300px;}</style>
+                                        <a href="https://www.embedgooglemap.net">embed google map</a></div></div>
+                                
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 mt-3" >
+                        <div class="card  mt-3 card1 ">
+                                <div class="card-header bg-dark text-white text-center heading">
+                                    Contact Details
+                                </div>
+                                <div class="card-body ">
+                                    <form action="mailto:premm2201@gmail.com" enctype="text/plain" name="myform" method="POST"  class=" g-3 needs-validation" onsubmit="return(validate1());" novalidate>
+                                        <label for="validationCustomUsername" class="form-label"  style="font-weight: bold;">Email</label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text" id="email">@</span>
+                                                <input type="text" class="form-control w-5" id="email" required>
+                                                <div class="invalid-feedback" id="em">Enter Email Properly</div>
+                                            </div>
+                                            <div class="form-group my-3 has-validation">
+                                                <textarea name="comment" column="10" rows="11" class="form-control" placeholder="enter your feedback" required></textarea> 
+                                                <div class="invalid-feedback">Enter Your FeedBack</div>
+                                            </div>
+                                                    
+                                             <button class=" btn btn-bg mr-4 ml-4 w-5" type="submit"  style="font-weight: bold;color: black;">Submit</button> 
+                                                    <br>     <br>                           
+                                            <button class=" btn btn-bg  mr-4 ml-4 w-5 mb-4" type="reset"  style="font-weight: bold; color: black;">Reset</button><br><br>                         
+                                    
+                                                </form>
+                                </div>     
+                                                     
+                        </div>
+                    </div> 
+                </div>
+                <div class="container row p-5">
+                    <div class="col-sm-12 p-2 col-xs-12 col-md-4 ml-5 ">
+                        <a class="link" href="https://www.linkedin.com/in/prem-m-838246207" target="_blank" rel="noopener noreferrer">
+                            <img src="https://image.flaticon.com/icons/png/128/179/179330.png"  height="50px" width="50px" alt="linkedin">
+                        </a><span class="display-3 id">prem-m-838246207</span>
+                    </div>
+                    <div class="link" class="col-sm-12 col-xs-12 col-md-4 ml-5  p-2">
+                        <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
+                            <img src="https://image.flaticon.com/icons/png/128/888/888853.png"  height="50px" width="50px" alt="gmail">
+                        </a><span class="display-3 id">premm2201@gmail.com</span>
+                    </div>
+                    <div class="col-sm-12 col-xs-12 col-md-4 ml-5 p-2">
+                        <a class="link" href=" https://github.com/prem-svg" target="_blank" rel="noopener noreferrer">
+                        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="color: cornsilk;" height="50px" width="50px" alt="github">
+                    </a><span class="display-3 id">prem-svg</span>      
+                    </div>
+                </div>
+            </div>
+            <!--footer start-->
+            <footer class="container-fluid text-center p-1 text-white bg-dark mt-0 mb-0" style="width: 100%;">
+                <p class="display-4">&copy;copy right</p>
+             </footer>
+             <!--footer end-->
+</div>
+        
+
+
+
+
+<!--contact end-->  
+
+
+
+<!--bootstrap form validation-->
+<script>
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+
+
+</script>
+</body>
+</html>
